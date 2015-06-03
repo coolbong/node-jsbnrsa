@@ -1,0 +1,21 @@
+{
+  "name": "node-jsbnrsa",
+  "version": "0.0.1",
+  "description" : "node rsa module url: http://www-cs-students.stanford.edu/~tjw/jsbn/",
+  "main": "index.js",
+  "keywords": [
+    "asymmetric", "rsa",
+    "jsbn"
+  ],
+  "author" : {
+    "name": "coolbong",
+    "email": "coolbong.works@gmail.com"
+  },
+  "license" :{
+    "type" : "BSD"
+  },
+  "repository" : {
+    "type": "git",
+    "url": "http://github.com/coolbong/node-jsbnrsa"
+  }
+}
