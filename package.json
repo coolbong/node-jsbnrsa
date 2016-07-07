@@ -1,6 +1,6 @@
 {
   "name": "node-jsbnrsa",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description" : "node rsa module url: http://www-cs-students.stanford.edu/~tjw/jsbn/",
   "main": "index.js",
   "keywords": [
@@ -11,9 +11,7 @@
     "name": "coolbong",
     "email": "coolbong.works@gmail.com"
   },
-  "license" :{
-    "type" : "BSD"
-  },
+  "license" :"BSD",
   "repository" : {
     "type": "git",
     "url": "http://github.com/coolbong/node-jsbnrsa"
