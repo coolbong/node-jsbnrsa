@@ -39,6 +39,7 @@ node base RSA encrypt / decrypt module
 		'32C244583BB0A1A167E96D8957CB5EA7';
 
 	var key = new RSA();
+	rsaKey.setPublic(modulus, exponent);
 	var data = key.encrypt(encryptedData);
 	var buf = new Buffer(data, 'hex');
 
