@@ -65,7 +65,6 @@ exports.rsa = {
         var buf = new Buffer(data, 'hex');
         assert(buf[0] === 0x6A);
         assert(buf[buf.length-1] === 0xBC);
-
     },
     'public key encrypt 176 byte case 2' :  function() {
         var publicKey = {
@@ -98,6 +97,7 @@ exports.rsa = {
         var data = rsaKey.decrypt(text);
 
         assert(answer === data);
+
     }
 
 };

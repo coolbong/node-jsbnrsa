@@ -1,6 +1,6 @@
 {
   "name": "node-jsbnrsa",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description" : "node rsa module url: http://www-cs-students.stanford.edu/~tjw/jsbn/",
   "main": "index.js",
   "keywords": [
